@@ -1,0 +1,99 @@
+.naav{
+    background-color: white;
+  
+}
+.naav_btn{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+@media only screen and (min-width: 1241px){
+    .naav{
+        margin-left: 250px;
+        margin-right: 250px;
+    }
+}
+ .main_condainer{
+    display: flex;
+    justify-content: center;
+    padding: 60px;
+    background-color: black;
+    
+ }
+ .main_row1{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    gap: 100px;
+    padding-top: 15px;
+ }
+ .main_colum1{
+    max-width: 450px;
+    color: white;
+ }
+ .main_colum2{
+    max-width: 450px;
+    background-color: white;
+    color: black;
+    border-radius: 20px;
+    padding: 10px;
+    margin-left: 3px;
+    margin-right: 3px;
+ }
+ .f_box{
+    display: flex;
+    flex-direction: row;
+    gap: 4px;
+    flex-wrap: wrap;
+ }
+ .f_box1{
+    background-color: rgb(40, 39, 39);
+    border-radius: 15px;
+    text-align: center;
+    padding: 3px 3px 3px 3px;
+    font-size: 0.8rem;
+ }
+ .box1{
+    display: flex;
+    gap: 15px;
+    background-color: rgb(40, 39, 39);
+    border-radius: 9px;
+    justify-content: space-around;
+}
+.box1 > *{
+    text-align: center;
+    max-width: 170px;
+    line-height: 2px;
+}
+.box1 > div > p{
+    font-size: 0.8rem;
+}
+.main_condainer2{
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+}
+.main_row2-1{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.btn1{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    gap: 20px;
+}
+.main_condainer3{
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+    background-color: rgb(250, 247, 247);
+}
+.main_row3-1{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+
